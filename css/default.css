@@ -1,0 +1,503 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+li {
+    list-style: none;
+}
+
+.indie {
+    font-family: 'Indie Flower', cursive;
+}
+
+div {
+    display: block;
+}
+
+.background-image {
+    background-size: cover;
+    background-position: center;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 49% 0%
+    }
+    50% {
+        background-position: 52% 100%
+    }
+    100% {
+        background-position: 49% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 49% 0%
+    }
+    50% {
+        background-position: 52% 100%
+    }
+    100% {
+        background-position: 49% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 49% 0%
+    }
+    50% {
+        background-position: 52% 100%
+    }
+    100% {
+        background-position: 49% 0%
+    }
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.flex-col {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.full-width {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    background-color: rgba(15, 15, 15, 0.59);
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+ul.links li {
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+section#banner {
+    background: -moz-linear-gradient(45deg, rgba(106, 173, 45, 0.43) 0%, rgba(6, 70, 216, 0.43) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(106, 173, 45, 0.43)), color-stop(100%, rgba(6, 70, 216, 0.43))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(106, 173, 45, 0.43) 0%, rgba(6, 70, 216, 0.43) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(106, 173, 45, 0.43) 0%, rgba(6, 70, 216, 0.43) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(106, 173, 45, 0.43) 0%, rgba(6, 70, 216, 0.43) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(106, 173, 45, 0.43) 0%, rgba(6, 70, 216, 0.43) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+
+}
+
+section#bootcamp {
+    background-color: white;
+    height: 70vh;
+    overflow: hidden;
+
+}
+
+section#social {
+    background: -moz-linear-gradient(45deg, rgba(122, 255, 0, 0.3) 0%, rgba(66, 124, 255, 1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(122, 255, 0, 0.3)), color-stop(100%, rgba(66, 124, 255, 1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(122, 255, 0, 0.3) 0%, rgba(66, 124, 255, 1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(122, 255, 0, 0.3) 0%, rgba(66, 124, 255, 1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(122, 255, 0, 0.3) 0%, rgba(66, 124, 255, 1) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(122, 255, 0, 0.3) 0%, rgba(66, 124, 255, 1) 100%); /* w3c */
+}
+
+section#bootcamp .info {
+    font-size: 4vh;
+    text-align: center;
+    max-width: 600px;
+    align-self: center;
+    padding: 0 20px;
+
+}
+
+section#bootcamp h1 {
+    font-family: 'Indie Flower', cursive;
+    color: #2e2a87;
+    font-size: 6vh;
+    font-weight:bold;
+}
+
+div.section-text {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    max-width: 600px;
+}
+
+.button {
+    border: solid 2px;
+    width: auto;
+    align-self: center;
+    margin: 1em;
+    font-size: 2.5vh;
+    padding: 5px;
+
+}
+
+.button:hover {
+    opacity: 0.6;
+}
+
+section#bootcamp a.button {
+    border-color: #ff5605;
+    color: #ff5605;
+    margin-bottom: 3em;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    opacity: .8;
+
+}
+
+section#bootcamp span {
+    background-color: #05a4a3;
+    padding: 0 0.25em;
+    margin: 0 -0.2em;
+    color: #fff;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+section#services {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    background: -moz-linear-gradient(45deg, rgba(122, 255, 0, 0.3) 0%, rgba(66, 124, 255, 1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(122, 255, 0, 0.3)), color-stop(100%, rgba(66, 124, 255, 1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(122, 255, 0, 0.3) 0%, rgba(66, 124, 255, 1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(122, 255, 0, 0.3) 0%, rgba(66, 124, 255, 1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(122, 255, 0, 0.3) 0%, rgba(66, 124, 255, 1) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(122, 255, 0, 0.3) 0%, rgba(66, 124, 255, 1) 100%); /* w3c */
+
+}
+
+section#services a {
+    align-self: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    padding: 5vh 0px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+section#services a h2 {
+    align-self: center;
+    font-size: 5vh;
+    min-font-size: 2vh;
+    margin: 0;
+}
+
+section#services a p {
+    vertical-align: middle;
+    font-size: 3vh;
+    max-width: 500px;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0;
+
+}
+
+.flexbox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#misc {
+    background-color: white;
+    height: auto;
+}
+
+section#misc h1 {
+    font-family: 'Indie Flower', cursive;
+    color: #2e2a87;
+    font-size: 6vh;
+    font-weight:bold;
+}
+
+section#misc span {
+    background-color: #a40582;
+    padding: 1px 10px
+}
+
+section#social h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 6vh;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-self: center;
+    margin: 1em;
+    margin-bottom: 4em;
+}
+
+.sd-container {
+    margin: 1em;
+}
+
+div#alastair div.card-image {
+    background-image: url("../data/img/alastair.jpg");
+}
+
+div#staff div.card-image {
+    background-image: url("../data/img/staff.fw.png");
+}
+
+div#afl div.card-image {
+    background-image: url("../data/logos/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #262e34;
+}
+
+div#alastair div.card-front {
+    background: linear-gradient(0deg, #343fc6, #a93dc5);
+
+}
+
+div#alastair div.card-back {
+    background: linear-gradient(0deg, #a93dc5, #343fc6);
+    justify-content: center;
+
+}
+
+div#staff div.card-front {
+    background: linear-gradient(0deg, #3684c6, #7936c6);
+
+}
+
+div#staff div.card-back {
+    background: linear-gradient(0deg, #7936c6, #3684c6);
+
+}
+
+div#afl div.card-front {
+    background: linear-gradient(0deg, #49a09d, #5f2c82);
+
+}
+
+div#afl div.card-back {
+    background: linear-gradient(0deg, #5f2c82, #49a09d);
+    justify-content: center;
+
+
+}
+
+div.card h4 {
+    font-size: 20px;
+}
+
+div#alastair h5 {
+    font-size: 16px;
+}
+
+div#afl .card-back img {
+    width: 100%;
+    height: 130px;
+}
+
+img#logo {
+    width: 350px;
+    align-self: center;
+    opacity: 1;
+}
+
+section#banner h2 {
+    font-size: 24px;
+}
+
+div#alastair p {
+    margin: 20px;
+}
+
+div#afl p {
+    margin: 20px;
+}
+
+div.social-box a img {
+    height: 50px;
+    padding: 2px 0;
+}
+
+div.social-box a:hover {
+    opacity: .9;
+
+}
+
+footer {
+
+    background-color: rgba(21, 21, 21, 0.8);
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    text-align: right;
+}
+
+footer div.container {
+    justify-content: space-around;
+}
+
+footer ul.links {
+    text-align: right;
+}
+
+footer ul.links li a:hover {
+    color: white;
+    opacity: .8;
+}
+
+footer ul {
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.social-box {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+}
+
+section#social {
+    padding: 1vh;
+    overflow-x: hidden;
+    height: 60vh;
+
+}
+
+.bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: none;
+}
+
+@media screen and (min-height: 800px) {
+    section#banner a {
+        display: block;
+    }
+}
+
+footer div.flex-col {
+    justify-content: center;
+}
+
+.invisible {
+    visibility: hidden;
+    display: none;
+    z-index: -1;
+}
+
+.price {
+    color: grey;
+    font-size: 2vh;
+}
+
+.balloons {
+    height: 40vw;
+    display: none;
+    align-self: center;
+}
+
+@media screen and (min-width: 800px) {
+    .balloons {
+        display: block;
+    }
+
+    .balloon-container {
+        width: 80vw;
+    }
+}
+
+.contact {
+    font-size: 22px;
+    align-self: left;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.contact img {
+    height: 24px;
+}
+
+figure{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#port{
+    color:#ff4ed1;
+}

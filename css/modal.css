@@ -1,0 +1,167 @@
+.modalDialog {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(78, 78, 78, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+
+    position: relative;
+
+}
+
+.close-modal {
+
+    margin: 1.5vh;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32px;
+    text-decoration: none;
+    opacity: 1;
+    border:none;
+}
+
+.modal-item {
+    height: 80vh;
+    max-width: 500px;
+    align-self: center;
+    margin:12vh 5px 8vh;
+
+    overflow: auto;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+
+
+}
+
+.modal-item .banner {
+    width: 100%;
+    min-height: 40%;
+}
+
+.bootcamp-modal .banner
+{
+    background-image: url("../data/img/bootcamp.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pt-modal .banner
+{
+    background-image: url("../data/img/pt.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.school-modal .banner
+{
+    background-image: url("../data/img/school.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.music-modal .banner
+{
+    background-image: url("../data/img/fitness.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+div.modal-item div.info {
+    align-self: center;
+    margin: 2vh 10px;
+}
+
+div.modal-item div.info div.icons figure {
+    height: 64px;
+    width: 64px;
+    text-align: center;
+
+}
+
+div.modal-item div.info div.icons {
+    justify-content: space-around;
+    margin: 2vh 2vh 6vh;
+}
+
+div.modal-item div.info div.icons img{
+    height: 64px;
+    width: 64px;
+}
+
+
+div.modal-item div.info div.instructions{
+    margin: 25px;
+    text-align: justify;
+}
+
+div.modal-item div.info div.instructions div{
+    width: 100%;
+    padding: 0.5vh 0;
+    border-bottom: 1px solid white;
+}
+
+div#pt-modal .modal-item {
+    background: -moz-linear-gradient(45deg, rgba(0, 126, 255, 0.3) 0%, rgba(66, 124, 255, 0.5) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0, 126, 255, 0.3)), color-stop(100%, rgba(66, 124, 255, 0.5))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(0, 126, 255, 0.3) 0%, rgba(66, 124, 255, 0.5) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(0, 126, 255, 0.3) 0%, rgba(66, 124, 255, 0.5) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(0, 126, 255, 0.3) 0%, rgba(66, 124, 255, 0.5) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(0, 126, 255, 0.3) 0%, rgba(66, 124, 255, 0.5) 100%); /* w3c */
+}
+
+div#school-modal .modal-item {
+    background: -moz-linear-gradient(45deg, rgba(145, 255, 0, 0.3) 0%, rgba(66, 194, 255, 0.5) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(145, 255, 0, 0.3)), color-stop(100%, rgba(66, 194, 255, 0.5))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(145, 255, 0, 0.3) 0%, rgba(66, 194, 255, 0.5) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(145, 255, 0, 0.3) 0%, rgba(66, 194, 255, 0.5) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(145, 255, 0, 0.3) 0%, rgba(66, 194, 255, 0.5) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(145, 255, 0, 0.3) 0%, rgba(66, 194, 255, 0.5) 100%); /* w3c */
+}
+div#bootcamp-modal .modal-item {
+    background: -moz-linear-gradient(45deg, rgba(255, 59, 0, 0.3) 0%, rgba(217, 66, 255, 0.5) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255, 59, 0, 0.3)), color-stop(100%, rgba(217, 66, 255, 0.5))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(255, 59, 0, 0.3) 0%, rgba(217, 66, 255, 0.5) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(255, 59, 0, 0.3) 0%, rgba(217, 66, 255, 0.5) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(255, 59, 0, 0.3) 0%, rgba(217, 66, 255, 0.5) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(255, 59, 0, 0.3) 0%, rgba(217, 66, 255, 0.5) 100%); /* w3c */
+}
+
+div#music-modal .modal-item {
+    background: -moz-linear-gradient(45deg, rgba(192, 0, 255, 0.3) 0%, rgba(139, 66, 255, 0.5) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(192, 0, 255, 0.3)), color-stop(100%, rgba(139, 66, 255, 0.5))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(192, 0, 255, 0.3) 0%, rgba(139, 66, 255, 0.5) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(192, 0, 255, 0.3) 0%, rgba(139, 66, 255, 0.5) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(192, 0, 255, 0.3) 0%, rgba(139, 66, 255, 0.5) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(192, 0, 255, 0.3) 0%, rgba(139, 66, 255, 0.5) 100%); /* w3c */
+}
+
+
+.modal-confirmed,.modal-denied{
+    align-self: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 10vh;
+    font-size: 20px;
+}

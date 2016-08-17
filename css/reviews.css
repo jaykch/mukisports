@@ -1,0 +1,62 @@
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.testimonial-slider{
+    opacity: 0;
+}
+
+.fade-in {
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
+
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+
+}
+
+.testimonial-slider{
+    max-width: 400px;
+    top:0;
+    left:0;
+    align-self: center;
+}
+
+img.reviewer-image {
+    border-radius: 100px;
+    height: 10vh;
+    border: 2px solid white;
+}
+
+div.reviewer img.arrow {
+    height: 4vh;
+    margin: 0 10px;
+    min-height: 3vh;
+
+}
+
+.reviewer-name,.testimonial {
+    font-size: 3vh;
+    max-width: 500px;
+    margin: 0 20px;
+
+}
+
+.star {
+    height: 3vh;
+    margin: 1em 2px;
+}
+
+
+
+

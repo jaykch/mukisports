@@ -1,0 +1,76 @@
+*:focus {
+    outline: none;
+}
+
+form#contact {
+    text-decoration: none;
+    color: white;
+    margin-top: 5vh;
+    width: 300px;
+}
+
+form#contact input[type=submit] {
+    border: solid 2px;
+    width: 120px;
+    height: 38px;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    background: transparent;
+    align-self: flex-end;
+    text-align: center;
+}
+
+form#contact input[type=submit]:hover {
+    background-color: rgba(255, 255, 255, 0.32);
+}
+
+form#contact input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    height: auto;
+    width: 300px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    text-align: right;
+    align-self: center;
+}
+
+form#contact textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    height: auto;
+    width: 300px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    text-align: right;
+    align-self: center;
+    overflow: hidden;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder {
+    color: #fff;
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+
+section#banner > div{
+    margin: 10vh 0;
+    padding: 4vh;
+    border-top: 2px solid white;
+
+}
