@@ -1,4 +1,6 @@
 
+
+
 .card {
 
     height: 390px;
@@ -25,17 +27,7 @@
     transform-style: preserve-3d;
 }
 
-@media (max-width: 1000px) {
 
-    .card-mobile{
-        display: flex;
-
-    }
-    .card-content{
-        display: none;
-    }
-
-}
 
 #alastair .card-mobile{
     background: linear-gradient(0deg, #343fc6, #a93dc5);
@@ -138,6 +130,17 @@ div#afl p {
     text-align: justify;
     align-self: center;
 
+}
+
+@media (max-width: 1000px) {
+
+    .card-mobile{
+        display: flex;
+
+    }
+    .card-content{
+        display: none;
+    }
 }
 
 

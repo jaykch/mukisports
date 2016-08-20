@@ -15,8 +15,11 @@
 
     <link rel="icon" type="ico" href="data/logos/logo.fw.png"/>
     <link rel="shortcut icon" type="ico" href="data/logos/logo.png"/>
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!--build:css css/main.concat.css -->
+
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <link rel="stylesheet" type="text/css" href="css/modal.css">
     <link rel="stylesheet" type="text/css" href="css/button-transition.css">
@@ -26,10 +29,16 @@
     <link rel="stylesheet" type="text/css" href="css/form.css">
     <link rel="stylesheet" type="text/css" href="css/reviews.css">
 
+    <!-- endbuild -->
+
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
             integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!--build:js js/main.concat.js -->
     <script src="js/reviews.js"></script>
     <script src="js/animateScrolling.js"></script>
+
+    <!-- endbuild -->
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -49,6 +58,7 @@
 
     </script>
 
+
 </head>
 <body>
 
@@ -63,12 +73,12 @@
 
 <section id="banner">
     <img id="logo" src="data/logos/logo.png">
-    <!--<form id="contact" class="flex-col" action="php/contact.php" method="post">
+    <form id="contact" class="flex-col" action="php/contact.php" method="post">
         <input type="text" name="name" placeholder="NAME" required><br>
         <input type="tel" name="number" placeholder="NUMBER" required><br>
         <textarea type="text" name="message" placeholder="MESSAGE" required></textarea><br>
         <input type="submit" name="submit" value="ENQUIRE">
-    </form>-->
+    </form>
     <div class="flex-col">
         <div class="contact"><img src="data/icons/phone.png"> 07429347538</div>
         <a href="mailto:info@mukisports.com?Subject=Hello%20again" target="_top" class="contact">
@@ -268,7 +278,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-mobile flex-col">
+            <div class="card-mobile flex-col justify-center align-center">
                 <div class="staff-profile">
                     <div class="image"><img src="data/img/tina.fw.png"></div>
                     <div class="text"><h5>TIINA MIELONEN</h5>
@@ -639,6 +649,34 @@
                     </p>
                     <p> If you have an urgent query, you can contact us at:
                         <br>07429347538
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal-spaces" class="modalDialog">
+    <div>
+        <a href="#close" title="Close" class="close-modal"><img src="data/icons/cancel.png" style="height: 36px;"></a>
+        <div class="modal-container flex-col">
+
+            <div class="modal-item flex-col">
+                <div class="modal-denied flex-col">
+                    <h1>Oops!</h1>
+                    <p>
+                        Sorry, it seems like you have posted a
+                        <span style="font-weight: bold; color: #db6767; text-decoration: underline;">blank message</span><br>
+                        If this is a mistake, please fill the form again and check if all fields are filled in properly.
+                        <br>If you are still not able to send your message through.
+                        <br>Give us a call.
+                    </p>
+                    <p> If you have an urgent query, you can contact us at:
+                        <br>07429347538
+                    </p><br><span>or</span><br>
+                    <p>Send us an email at:<br> <a
+                            href="mailto:info@mukisports.com?Subject=Hello%20again"
+                            target="_top">info@mukisports.com</a>
                     </p>
                 </div>
             </div>

@@ -82,6 +82,14 @@ div {
     text-align: center;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-content: center;
+}
+
 .no-wrap {
     flex-wrap: nowrap;
 }
