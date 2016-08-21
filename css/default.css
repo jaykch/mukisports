@@ -259,7 +259,7 @@ section#services a h2 {
     align-self: center;
     font-size: 5vh;
     min-font-size: 2vh;
-    margin: 0;
+    margin: 1px;
 }
 
 section#services a p {
@@ -268,7 +268,7 @@ section#services a p {
     max-width: 500px;
     text-align: center;
     padding: 0 10px;
-    margin: 0;
+    margin: 1px;
 
 }
 

@@ -35,17 +35,21 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 32px;
     text-decoration: none;
     opacity: 1;
     border: none;
 }
 
+.close-modal > img{
+    height: 4vh!important;
+    width: 4vh!important;
+}
+
 .modal-item {
-    height: 80vh;
+    height: 90vh;
     max-width: 500px;
     align-self: center;
-    margin: 12vh 5px 8vh;
+    margin: 5vh 5px 5vh;
 
     overflow: auto;
     color: white;
@@ -56,7 +60,7 @@
 
 .modal-item .banner {
     width: 100%;
-    min-height: 40%;
+    min-height: 35%;
 }
 
 .bootcamp-modal .banner {
@@ -84,12 +88,12 @@
 }
 
 div.modal-item div.info {
+    height: 50vh;
     align-self: center;
     margin: 2vh 10px;
 }
 
 div.modal-item div.info div.icons figure {
-    height: 64px;
     width: 64px;
     text-align: center;
 

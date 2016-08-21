@@ -141,6 +141,13 @@ div#afl p {
     .card-content{
         display: none;
     }
+    .modal-item .banner {
+        min-height: 60%;
+    }
+}
+
+.card-mobile div.text{
+    margin:1px;
 }
 
 

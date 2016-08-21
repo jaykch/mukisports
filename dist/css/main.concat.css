@@ -259,7 +259,7 @@ section#services a h2 {
     align-self: center;
     font-size: 5vh;
     min-font-size: 2vh;
-    margin: 0;
+    margin: 1px;
 }
 
 section#services a p {
@@ -268,7 +268,7 @@ section#services a p {
     max-width: 500px;
     text-align: center;
     padding: 0 10px;
-    margin: 0;
+    margin: 1px;
 
 }
 
@@ -507,6 +507,7 @@ figure{
 #port{
     color:#ff4ed1;
 }
+
 .modalDialog {
     margin: 0;
     padding: 0;
@@ -544,17 +545,21 @@ figure{
     position: absolute;
     top: 0;
     right: 0;
-    width: 32px;
     text-decoration: none;
     opacity: 1;
     border: none;
 }
 
+.close-modal > img{
+    height: 4vh!important;
+    width: 4vh!important;
+}
+
 .modal-item {
-    height: 80vh;
+    height: 90vh;
     max-width: 500px;
     align-self: center;
-    margin: 12vh 5px 8vh;
+    margin: 5vh 5px 5vh;
 
     overflow: auto;
     color: white;
@@ -565,7 +570,7 @@ figure{
 
 .modal-item .banner {
     width: 100%;
-    min-height: 40%;
+    min-height: 35%;
 }
 
 .bootcamp-modal .banner {
@@ -593,12 +598,12 @@ figure{
 }
 
 div.modal-item div.info {
+    height: 50vh;
     align-self: center;
     margin: 2vh 10px;
 }
 
 div.modal-item div.info div.icons figure {
-    height: 64px;
     width: 64px;
     text-align: center;
 
@@ -1225,6 +1230,13 @@ div#afl p {
     .card-content{
         display: none;
     }
+    .modal-item .banner {
+        min-height: 60%;
+    }
+}
+
+.card-mobile div.text{
+    margin:1px;
 }
 
 
