@@ -732,6 +732,10 @@ a#services-mc:hover
 }
 
 
+#services .flexbox{
+    min-width: 90%;
+}
+
 
 
 .fullscreen-bg {
@@ -760,7 +764,7 @@ a#services-mc:hover
     transform: translate(-50%, -50%);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .fullscreen-bg {
         background: url('../data/img/background.jpg') center center / cover no-repeat;
 
@@ -1221,7 +1225,7 @@ div#afl p {
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
 
     .card-mobile{
         display: flex;

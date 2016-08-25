@@ -57,3 +57,7 @@ a#services-mc:hover
 }
 
 
+#services .flexbox{
+    min-width: 90%;
+}
+
